@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+.mainheading{
+    background-image:url(../Content/gif_background.gif);
+    height:180px;
+    width:100%;
+    color:#ffff;
+    font-family:'Varela Round';
+    font-size:40px;
+    font-weight:bolder;
+    text-align:center;
+    background-attachment: fixed;
+    
+    
+    
+}
+body{
+    margin:0px;
+}
+nav{
+    background-color:skyblue;
+    padding:20px;
+    overflow: hidden;
+    display:flex;
+
+}
+nav a{
+    
+    padding:12px;
+    float:left;
+    color:black;
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    
+}
+.alignright{
+    margin-left: auto;
+}
+.image1,.image2,.image3,.image4,.image5,.image6,.image7{
+    height:220px;
+    width:320px;
+    border:2px solid black;
+    position:relative;
+    border-radius:12px;
+    margin:8px;
+
+}
+.image1{
+    float:left;
+    position:relative;
+    top:5px;
+    
+}
+.image2{
+    float:right;
+    position:relative;
+    top:30px;
+}
+.image3{
+    float:left;
+    position:relative;
+    top:18px;
+}
+.image4{
+    float:right;
+    position:relative;
+    top:25px;
+}
+.image5{
+    float:left;
+    position:relative;
+    top:20px;
+}
+.image6{
+    float:right;
+    position:relative;
+    top:15px;
+}
+.image7{
+    float:left;
+}
+#applybutton{
+    color:black;
+    background-color: cyan;
+    font-family:'Ubuntu';
+    font-size:16px;
+    font-weight:500;
+    height:40px;
+    width:120px;
+    border:1px solid navy;
+    border-radius:8px;
+}
+#applybutton:hover{
+    background-color:orchid;
+    cursor:pointer;
+}
+.para1,.para2,.para3,.para4,.para5,.para6,.para7{
+    font-size:20px;
+    font-family:'Farro';
+    font-weight:600;
+    margin:8px;
+}
+#subheading1,#subheading2,#subheading3,#subheading4,#subheading5,v,#subheading6,#subheading7,#subheading8{
+    font-size:26px;
+    color:crimson;
+    font-family:'Ubuntu';
+    padding:5px;
+}
+.pune,.mumbai,.ahmednagar,.collegereview{
+    font-size:35px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    text-align: center;
+    padding:18px;
+    color:#ffff;
+    font-family:'Varela Round';
+    border-radius:18px;
+    width: 100%;
+    
+    background-position:center;
+    
+}
+nav a:hover{
+    font-weight:bolder;
+    background-color: darkblue;
+    color:#ffff;
+}
+form{
+    margin:20px;
+    background-color: plum;
+    font-family:'Varela Round';
+    font-weight:bold;
+    font-size:20px;
+    padding:18px;
+    text-align:justify;
+}
+#createaccount{
+    height:50px;
+    width:140px;
+    background-color:bisque;
+    font-size:18px;
+    font-family:'Varela Round';
+    border-radius:12px;
+}
+#createaccount:hover{
+    background-color: burlywood;
+    cursor:pointer;
+}
+footer{
+    background-color:skyblue;
+    padding:20px;
+    overflow: hidden;
+    display:flex;
+}
+footer a{
+    padding:12px;
+    float:left;
+    color:black;
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    text-decoration: none; 
+}
+footer a:hover{
+    font-weight:bolder;
+    background-color: darkblue;
+    color:#ffff;
+}
+}
+
